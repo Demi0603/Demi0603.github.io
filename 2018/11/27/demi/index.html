@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>静态网站 | Demi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="静态网站开发的定位*一开始：网站几乎是静态     *CERN，Tim Bernede Lee：超链接、world wide web *动态网站     *CGI：         *实践建议：下载Putty、Fterm等终端工具，连接访问bbs.pku.edu.cn北大未名网站，     *脚本：ASP、PHP     *半编译型：Java、ASP.Net     *相对而言执行速度慢，配置稍复">
+<meta property="og:type" content="article">
+<meta property="og:title" content="静态网站">
+<meta property="og:url" content="http://yoursite.com/2018/11/27/demi/index.html">
+<meta property="og:site_name" content="Demi">
+<meta property="og:description" content="静态网站开发的定位*一开始：网站几乎是静态     *CERN，Tim Bernede Lee：超链接、world wide web *动态网站     *CGI：         *实践建议：下载Putty、Fterm等终端工具，连接访问bbs.pku.edu.cn北大未名网站，     *脚本：ASP、PHP     *半编译型：Java、ASP.Net     *相对而言执行速度慢，配置稍复">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-11-27T07:54:54.931Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="静态网站">
+<meta name="twitter:description" content="静态网站开发的定位*一开始：网站几乎是静态     *CERN，Tim Bernede Lee：超链接、world wide web *动态网站     *CGI：         *实践建议：下载Putty、Fterm等终端工具，连接访问bbs.pku.edu.cn北大未名网站，     *脚本：ASP、PHP     *半编译型：Java、ASP.Net     *相对而言执行速度慢，配置稍复">
+  
+    <link rel="alternate" href="/atom.xml" title="Demi" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Demi</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-demi" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/11/27/demi/" class="article-date">
+  <time datetime="2018-11-27T07:53:49.479Z" itemprop="datePublished">2018-11-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      静态网站
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="静态网站开发的定位"><a href="#静态网站开发的定位" class="headerlink" title="静态网站开发的定位"></a>静态网站开发的定位</h2><pre><code>*一开始：网站几乎是静态
+    *CERN，Tim Bernede Lee：超链接、world wide web
+*动态网站
+    *CGI：
+        *实践建议：下载Putty、Fterm等终端工具，连接访问bbs.pku.edu.cn北大未名网站，
+    *脚本：ASP、PHP
+    *半编译型：Java、ASP.Net
+    *相对而言执行速度慢，配置稍复杂
+*个别情境重新关注静态网站
+    *在线手册
+</code></pre><h2 id="静态网站的生成工具"><a href="#静态网站的生成工具" class="headerlink" title="静态网站的生成工具"></a>静态网站的生成工具</h2><pre><code>*主要特点
+    *一般是指用第三方程序语言开发，基于用户输入的内容快速生成静态网站
+    *一般也会支持主题
+    *大多数静态网站生成工具也会支持同步到服务器的选项
+*常用系统
+    *Hexo：Node.js开发，支持用Markdown写内容
+    *Sphinx：Python开发，支持用Restul Text写内容
+    *MkDoc：Python开发，支持Markdown写内容
+</code></pre><h2 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h2><pre><code>*Javascript
+    *最全能的语言
+    *用Javascript实现后端开发的一个代表：Node.js
+    *用Javascript实现客户端：
+        *示例：Visual Studio Code
+        *技术：Ecletron
+</code></pre><h2 id="Node-js-1"><a href="#Node-js-1" class="headerlink" title="Node.js"></a>Node.js</h2><pre><code>*下载安装Node.js
+    *方法一：下载Windows Installer
+    *方法二：下载Windows binary解压，并将路径放入PATH变量
+        *echo %PATH%查询
+    *检测node.js安装状态
+        *node -v
+        *npm -v
+</code></pre><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><pre><code>*hexo是一个node.js包
+*包安装方法
+    *node.js中的包管理器：npm（node package manager）
+    *npm install 包名（参数）
+    * npm install hexo-cli -g
+</code></pre><p>cmd命令中<br>D：加回车，跳到D盘<br>dir 可以列出当前的文件夹下的文件<br>cd +文件夹名，改变目录，进入到此文件夹<br>也可以 cd+文件夹名\文件夹  路径</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/11/27/demi/" data-id="cjozg34c00000k0w01ep3wsq2" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2018/11/27/jing/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/11/27/demi/">静态网站</a>
+          </li>
+        
+          <li>
+            <a href="/2018/11/27/jing/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/11/27/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
